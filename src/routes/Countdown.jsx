@@ -12,7 +12,7 @@ const Countdown = () => {
 
     const {event} = useContext(CountdownContext)
 
-    if(!event) return <Navigate to="/" />
+    if(!event) return <Navigate to="/countdown_react_js" />
 
     const eventTitle = event.title
 

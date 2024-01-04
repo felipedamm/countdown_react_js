@@ -28,7 +28,7 @@ const Home = () => {
         }
 
        setEvent(eventObject)
-       navigate("/countdown")
+       navigate("/countdown_react_js/countdown")
     }
 
     return (
